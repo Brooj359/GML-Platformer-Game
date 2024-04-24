@@ -13,6 +13,11 @@ hsp = _move * walksp;
 
 vsp = vsp + grv;
 
+if (place_meeting(x,y+1,obj_wall)) && (key_jump)
+{
+	vsp = -jumpsp	
+}
+
 //Verical Collision
 if (place_meeting(x,y+vsp,obj_wall))
 {
