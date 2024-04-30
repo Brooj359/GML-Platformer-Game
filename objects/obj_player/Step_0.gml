@@ -40,6 +40,14 @@ if (place_meeting(x+hsp,y,obj_wall))
 }
 x = x + hsp
 
+//Animation
+if (!place_meeting(x,y+1,obj_wall))
+{
+	sprite_index = spr_player_jumping;
+	image_speed = 0;
+	if(vsp > 0) image_index = 1; else image_index = 0;
+}
+
 
 
 
