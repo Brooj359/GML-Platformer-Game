@@ -15,3 +15,12 @@ A GML Starter kit for the **Platformer Tutorial (GML) - Parts 1 & 2**
 ## Credits
 The assets and video tutorials were created by [Shaun Spalding](https://www.youtube.com/c/ShaunSpalding).
 Check out Shaun's amazing collections of videos.
+
+## Info On Game
+
+Game Includes:
+    - Collision with ground
+    - Jumping(with animation)
+    - idle animation
+    - Walking animation
+(No original features were added by student)
