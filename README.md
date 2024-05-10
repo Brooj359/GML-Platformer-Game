@@ -23,4 +23,5 @@ Game Includes:
     - Jumping(with animation)
     - idle animation
     - Walking animation
-(No original features were added by student)
+    - Camera that follows player
+    - Original Room Layout
